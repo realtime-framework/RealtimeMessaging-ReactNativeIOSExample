@@ -48,7 +48,7 @@ var RealtimeRCT = React.createClass({
   },
 
   componentDidMount: function(){
-    RCTRealtimeMessaging.RTCustomPushNotificationListener(this._onNotification);
+    RCTRealtimeMessaging.RTPushNotificationListener(this._onNotification);
   },
 
   componentWillUnmount: function() {
