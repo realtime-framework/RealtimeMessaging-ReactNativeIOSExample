@@ -4,14 +4,13 @@
  */
 'use strict';
 
-var React = require('react-native');
-var module = require('RCTRealtimeMessagingIOS');
-var RCTRealtimeMessaging = new module();
-
+import React, { Component } from 'react';
+import realtime from './RCTRealtimeMessagingIOS';
+var RCTRealtimeMessaging = new realtime();
 
 var messages = [];
 
-var {
+import {
   AppRegistry,
   Image,
   StyleSheet,
@@ -22,7 +21,7 @@ var {
   TouchableHighlight,
   ListView,
   View
-} = React;
+} from 'react-native';
 
 
 var RealtimeRCT = React.createClass({ 
