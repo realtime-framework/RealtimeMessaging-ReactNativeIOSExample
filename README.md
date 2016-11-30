@@ -25,7 +25,7 @@ This example is a simple app that allows you to send and receive messages betwee
 	* Drag `RCTRealtimeMessaging.js` to the root of your project.
 	
 * 	To configure your react-native project to receive push notifications you must follow [this guide](http://messaging-public.realtime.co/documentation/starting-guide/mobilePushAPNS.html) for the iOS platform.
-After this process you must drag `AppDelegate+RealtimeRCTPushNotifications(.m, .h)` category from RCTRealtimeMessaging plugin folder to your project, where AppDelegate class is, and you are ready to go.
+After this process you must drag `AppDelegate+RealtimeRCTPushNotifications(.m, .h)` category from RCTRealtimeMessaging plugin folder to your project, where AppDelegate class is in Xcode, and you are ready to go.
 
 ##Testing the custom push notifications delivery
 
